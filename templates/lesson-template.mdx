@@ -1,0 +1,98 @@
+---
+title: TITLE OF THE LESSON
+description: One sentence that says what the reader will have by the end.
+sidebar:
+  order: 0 # position in the Lessons section
+  label: N. Short label
+draft: true # remove only after an end-to-end test
+---
+
+import { Steps, Tabs, TabItem } from '@astrojs/starlight/components';
+
+Short introduction: the problem this lesson solves, in two or three sentences.
+
+:::note[Where we are]
+Last lesson we ... This lesson we ... By the end you will have ...
+:::
+
+## What you will learn
+
+- ...
+- ...
+
+## The AIUP activity
+
+What AIUP says about this step, with a link to the source.
+
+:::note[Our adaptation]
+What we add or change for teaching, and why.
+:::
+
+## Step by step
+
+<Steps>
+
+1. First step.
+
+2. Second step.
+
+</Steps>
+
+### Prompt N.1: SHORT NAME
+
+:::tip[Purpose]
+What this prompt is for.
+:::
+
+```text title="Prompt N.1 — SHORT NAME"
+Paste the exact prompt here.
+```
+
+:::note[Expected result]
+What a good answer contains.
+:::
+
+:::caution[Review before you accept]
+- Does it match UC-00X and BR-00X?
+- Did it invent any library, method or setting?
+- ...
+:::
+
+**Next action:** ...
+
+### Run it
+
+<Tabs syncKey="os">
+  <TabItem label="Windows">
+    ```powershell
+    .\mvnw.cmd spring-boot:run
+    ```
+  </TabItem>
+  <TabItem label="macOS / Linux">
+    ```bash
+    ./mvnw spring-boot:run
+    ```
+  </TabItem>
+</Tabs>
+
+## Check your work
+
+How the reader knows it worked. What to compare against in the reference repo.
+
+## Traceability
+
+| Requirement | Use case | Design | Code | Test |
+|---|---|---|---|---|
+| | | | | |
+
+## What you achieved
+
+...
+
+## Next lesson
+
+...
+
+:::note[Tested with]
+Reference repo tag: `lesson-0N-complete` · Java 25 · ... · Tested on YYYY-MM-DD
+:::
